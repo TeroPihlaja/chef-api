@@ -10,8 +10,6 @@ module ChefAPI
       attribute :normal,       type: Hash,   default: {}
       attribute :override,     type: Hash,   default: {}
       attribute :run_list,     type: Array,  default: []
-      attribute :policy_name,  type: String
-      attribute :policy_group, type: String
 
       # Enterprise Chef attributes
       attribute :chef_environment, type: String, default: '_default'
